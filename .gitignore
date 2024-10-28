@@ -4,11 +4,14 @@
 # Log file
 *.log
 
-# BlueJ files
-*.ctxt
+# remove yolo config and weights
+.cfg
+.weights
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+# target folder
+target/
+.mvn/
+.vscode/
 
 # Package Files #
 *.jar
