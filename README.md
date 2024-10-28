@@ -37,7 +37,8 @@ You can install OpenCV and SLF4J using Maven or manually add the `.jar` files to
 
 ### Step 2: YOLO Weights and Configuration
 
-The weights and configuration files are already provided in the `models` folder inside the `resources` directory.
+1. Download the YOLO v3 configuration and weights (specifically version named __YOLOv3-416__) from [YOLO official website](https://pjreddie.com/darknet/yolo/).
+2. Save the downloaded `.cfg` and `.weights` files to your desired location.
 
 ### Step 3: Project Configuration
 
